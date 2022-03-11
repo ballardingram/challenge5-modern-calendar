@@ -18,7 +18,8 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid darkslategrey;
+  background-image: url("http://assets.limitlesswalls.com/media/catalog/product/w/a/wall_mural_to_size_website_1413.1599893540.jpg");
 }
 
 .description{
