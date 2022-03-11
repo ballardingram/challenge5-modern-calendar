@@ -12,14 +12,14 @@ var loadTasks = function() {
 var printTasks = function() {
     $.each(tasks, function(list, arr){
         var taskP = $("<p>").addClass("description task-item" + list).text(arr)
-        console.log(list)
-        console.log(taskP)
+        //console.log(list)
+        //console.log(taskP)
         $("#task-item" + list).replaceWith(taskP);
     })
 }
 
 // This code sets the standard based on the current day.
-var Today = (moment().format("MMMM DD, YYYY"))
+var Today = (moment().format("MMMM D, YYYY"))
 $("#currentDay").text(Today);
 
 //This code sets colors from CSS based on if in the past, present, or future.
@@ -35,6 +35,7 @@ var hourAudit = function() {
         $(taskArea).addClass("future")
         }
     }
+}
 
 // This code allows users to update tasks by clicking their mouse.
 $(".taskBin").on("click", "p", function(){

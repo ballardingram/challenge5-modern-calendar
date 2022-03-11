@@ -13,6 +13,10 @@ textarea{
   padding: 10px;
 }
 
+p {
+  height: 75%;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -32,7 +36,7 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
+ /* white-space: pre-wrap;*/
   height: 80px;
   border-top: 1px solid white;;
 }
@@ -62,7 +66,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: slategray
+  background-color: slategray;
   color: white;
 }
 
