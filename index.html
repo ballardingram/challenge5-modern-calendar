@@ -18,18 +18,138 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+      </style>
+      <link rel="icon" type="image/x-icon" href="./assets/images/ficon.ico">
+    <title>SAM</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">Your Schedule</h1>
+      <p class="lead">Scheduled, Application, Management, <em>your work day.</em></p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div class = "row-time-block">
+        <div class = "col-2 hour">7:00 AM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-0"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+        </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">8:00 AM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-1"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">9:00 AM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-2"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">10:00 AM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-3"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">11:00 AM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-4"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">12:00 PM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-5"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">01:00 PM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-6"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">02:00 PM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-7"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">03:00 PM CST</div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-8"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">04:00 PM CST </div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-9"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">05:00 PM CST </div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-10"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">06:00 PM CST </div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-11"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
+      <div class = "row-time-block">
+        <div class = "col-2 hour">07:00 PM CST </div>
+        <div class = "col-9 taskBin" id = "task-8">
+          <p id = "task-item-12"></p>
+        </div>
+        <button class = "col 1 saveBtn" id = "save-btn">
+          <i class = "fa fa-archive"></i>
+          </button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
