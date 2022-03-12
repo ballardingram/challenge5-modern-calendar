@@ -14,29 +14,22 @@ textarea{
 }
 
 p {
-  height: 75%;
+  height: 90%;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
-  border-radius: 0;
   border-bottom: 10px solid darkslategrey;
   background-image: url("http://assets.limitlesswalls.com/media/catalog/product/w/a/wall_mural_to_size_website_1413.1599893540.jpg");
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
 .time-block{
   text-align: center;
-  border-radius: 15px;
 }
 
 .row {
- /* white-space: pre-wrap;*/
   height: 80px;
   border-top: 1px solid white;;
 }

@@ -39,7 +39,7 @@ var hourAudit = function() {
 
 // This code allows users to update tasks by clicking their mouse.
 $(".taskBin").on("click", "p", function(){
-    console.log("<p> selected");
+    //console.log("<p> selected");
     var text =$(this)
     .text()
     .trim();
@@ -65,15 +65,14 @@ $(".taskBin").on("blur", "textarea", function() {
 
 // This code saves the tasks.
 $(".saveBtn").on("click", function () {
-    console.log("Saved!");
+    //console.log("Saved!");
     var index = $(".saveBtn").index(this);
     tasks[index] = $(this).parent().find(".taskItem").text();
     localStorage.setItem("tasks", JSON.stringify(tasks));
 });
 
 setInterval(function(){
-    hourAudit();
-},1000*60*60);
+    hourAudit();},1000*60*60);
 
 loadTasks();
 hourAudit();
