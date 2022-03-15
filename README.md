@@ -19,9 +19,10 @@ The JS continues to be a challenge and takes up most of the project. I'm working
 ## Product Images
 
 ### Preview of the Site
-
+![previewofthesite] (https://github.com/ballardingram/challenge5-modern-calendar/blob/main/assets/images/readme0.gif)
 ### Initial Impression
-
+![initialimpression] (https://github.com/ballardingram/challenge5-modern-calendar/blob/main/assets/images/readme1.jpg)
 ### Functionality
-
+![functionality] (https://github.com/ballardingram/challenge5-modern-calendar/blob/main/assets/images/readme2.jpg)
 ### Timing and Date
+![timeanddate] (https://github.com/ballardingram/challenge5-modern-calendar/blob/main/assets/images/readme3.jpg)
